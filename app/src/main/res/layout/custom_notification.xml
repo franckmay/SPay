@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:src="@drawable/bouton_rect"
+            android:contentDescription="Test"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:background="#333333" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Sample big text"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/icon"
+            android:paddingLeft="10dp"
+            android:text="small sample text"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/bouton_rect"
+        android:scaleType="fitXY"/>
+
+
+
+</LinearLayout>

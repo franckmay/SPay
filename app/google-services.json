@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "302463970408",
+    "project_id": "speeds-afb28",
+    "storage_bucket": "speeds-afb28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302463970408:android:ef881755bd2fe3bd2f1fdd",
+        "android_client_info": {
+          "package_name": "com.os.speed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302463970408-nbtlup58hjvi64iitpk83dfflrbse51n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.os.speed",
+            "certificate_hash": "7a9a32e6fb7a7e3635b3d333d8572f32e50bc29e"
+          }
+        },
+        {
+          "client_id": "302463970408-ehdl7di63ik0h1h0mhpj4tkrc73prol4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_QG5TUjYaFYus7VQk7jdrX-VaQaihZ6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302463970408-ehdl7di63ik0h1h0mhpj4tkrc73prol4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

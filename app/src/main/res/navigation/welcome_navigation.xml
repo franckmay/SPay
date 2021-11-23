@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_navigation"
+    app:startDestination="@id/accepterConditionsFragment">
+
+    <fragment
+        android:id="@+id/phoneLoginFragment"
+        android:name="com.os.speed.fragment.PhoneLoginFragment"
+        android:label="PhoneLoginFragment" >
+        <action
+            android:id="@+id/action_phoneLoginFragment_to_codeVerificationFragment"
+            app:destination="@id/codeVerificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/definirUtilisateurFragment"
+        android:name="com.os.speed.fragment.DefinirUtilisateurFragment"
+        android:label="fragment_definir_utilisateur"
+        tools:layout="@layout/fragment_definir_utilisateur" >
+        <action
+            android:id="@+id/action_definirUtilisateurFragment_to_traductionFragment"
+            app:destination="@id/traductionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accepterConditionsFragment"
+        android:name="com.os.speed.fragment.AccepterConditionsFragment"
+        android:label="fragment_accepter_conditions"
+        tools:layout="@layout/fragment_accepter_conditions" >
+
+        <action
+            android:id="@+id/action_accepterConditionsFragment_to_fragmentFonctionnaliteune"
+            app:destination="@id/fragmentFonctionnaliteune" />
+    </fragment>
+    <fragment
+        android:id="@+id/traductionFragment"
+        android:name="com.os.speed.fragment.TraductionFragment"
+        android:label="fragment_traduction"
+        tools:layout="@layout/fragment_traduction" >
+        <action
+            android:id="@+id/action_traductionFragment_to_initialisationFragment"
+            app:destination="@id/initialisationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/initialisationFragment"
+        android:name="com.os.speed.fragment.InitialisationFragment"
+        android:label="fragment_initialisation"
+        tools:layout="@layout/fragment_initialisation" />
+    <fragment
+        android:id="@+id/codeVerificationFragment"
+        android:name="com.os.speed.fragment.CodeVerificationFragment"
+        android:label="fragment_code_verification"
+        tools:layout="@layout/fragment_code_verification" >
+        <action
+            android:id="@+id/action_codeVerificationFragment_to_definirUtilisateurFragment"
+            app:destination="@id/definirUtilisateurFragment" />
+
+        <action
+            android:id="@+id/action_codeVerificationFragment_to_phoneLoginFragment"
+            app:destination="@id/phoneLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFonctionnaliteune"
+        android:name="com.os.speed.fragment.FragmentFonctionnaliteune"
+        android:label="fragment_fonctionnaliteune"
+        tools:layout="@layout/fragment_fonctionnaliteune" >
+        <action
+            android:id="@+id/action_fragmentFonctionnaliteune_to_fragmentFonctionnalitedeux"
+            app:destination="@id/fragmentFonctionnalitedeux" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFonctionnalitedeux"
+        android:name="com.os.speed.fragment.FragmentFonctionnalitedeux"
+        android:label="fragment_fonctionnalitedeux"
+        tools:layout="@layout/fragment_fonctionnalitedeux" >
+        <action
+            android:id="@+id/action_fragmentFonctionnalitedeux_to_fragmentfonctionnalitetrois"
+            app:destination="@id/fragmentfonctionnalitetrois" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentfonctionnalitetrois"
+        android:name="com.os.speed.fragment.Fragmentfonctionnalitetrois"
+        android:label="fragment_fragmentfonctionnalitetrois"
+        tools:layout="@layout/fragment_fragmentfonctionnalitetrois" >
+        <action
+            android:id="@+id/action_fragmentfonctionnalitetrois_to_fragmentfonctionnalitequatre"
+            app:destination="@id/fragmentfonctionnalitequatre" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentfonctionnalitequatre"
+        android:name="com.os.speed.fragment.Fragmentfonctionnalitequatre"
+        android:label="fragment_fragmentfonctionnalitequatre"
+        tools:layout="@layout/fragment_fragmentfonctionnalitequatre" >
+        <action
+            android:id="@+id/action_fragmentfonctionnalitequatre_to_phoneLoginFragment"
+            app:destination="@id/phoneLoginFragment" />
+    </fragment>
+</navigation>

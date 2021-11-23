@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#650808"
+    android:orientation="vertical"
+    tools:context=".fragment.PhoneLoginFragment">
+
+    <LinearLayout
+        android:id="@+id/textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/strEtapeun"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfpro_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/strNumTel"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/strSendMessage"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_showNameCode="true"
+                app:ccp_textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_text"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:hint="@string/strNumTel"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+
+        <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/spinner_langue"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent" />
+
+        </LinearLayout>-->
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/strFraisSms"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            tools:text="@string/strFraisSms" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_login_next"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+
+        android:layout_below="@+id/textView_title"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bouton_rect"
+        android:text="@string/strContinuer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grei"
+    >
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="@string/create_ussd_code"
+
+        android:background="@android:color/black"
+        android:gravity="center"
+        />
+
+    <Spinner
+        android:layout_below="@+id/text_title"
+        android:id="@+id/spinner_operateur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_name"
+        android:hint="@string/compagnie_name"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/spinner_operateur"
+        android:layout_marginTop="30dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shortnumber"
+        android:hint="@string/radical"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/ed_name"
+        android:layout_marginTop="30dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_numero"
+        android:hint="@string/enter_codevendeur"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/shortnumber"
+        android:layout_marginTop="30dp"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_submit"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+
+        android:layout_below="@+id/ed_numero"
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/button_bg"/>
+
+</RelativeLayout>

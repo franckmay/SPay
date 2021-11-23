@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#650808"
+    tools:context=".fragment.AccepterConditionsFragment"
+
+    android:orientation="vertical"
+   >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/speedss"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/bienvenue"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="398dp"
+        tools:text="@string/bienvenue" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/speed"
+        android:textColor="@color/white"
+        android:textSize="54sp"
+        tools:ignore="MissingConstraints"
+        tools:text="@string/speed"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+    <TextView
+        android:id="@+id/tv_accepterConditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="@string/strAccepterConditions"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        tools:text="@string/strAccepterConditions" />
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bouton_rect"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/strAccepter"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+      />
+    <TextView
+        android:id="@+id/tv_bywintime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/pby_wintime"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="50dp"
+      />
+</LinearLayout>

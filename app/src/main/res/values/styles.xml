@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorPrimaryBlue200</item>
+        <item name="colorSecondary">@color/colorPrimaryBlue300</item>
+        <item name="colorPrimary">@color/prim</item>
+        <item name="colorPrimaryDark">@color/prim</item>
+        <item name="colorError">@color/colorPrimaryRed500</item>
+
+        <item name="colorControlNormal">@color/prim</item>
+    </style>
+
+    <style name="AppThemeblue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorPrimaryBlue200</item>
+        <item name="colorSecondary">@color/colorPrimaryBlue300</item>
+        <item name="colorPrimary">@color/prim</item>
+        <item name="colorPrimaryDark">@color/prim</item>
+        <item name="colorError">@color/colorPrimaryRed500</item>
+        <item name="fontFamily">@font/sfpro_regular</item>
+
+    </style>
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circular_progress_bar</item>
+    </style>
+    <style name="MyAlertDialogTheme">
+        <item name="android:windowBackground">@color/grei</item>
+        <item name="android:windowTitleStyle">@style/CardView.Dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textAppearanceMedium">@style/CardView.Light</item>
+        <!-- If you don't want your own button bar style use
+                @android:style/Holo.Light.ButtonBar.AlertDialog
+                and
+                ?android:attr/borderlessButtonStyle
+             instead of @style/MyButtonBar and @style/MyBorderlessButton -->
+        <item name="android:buttonBarStyle">@style/CardView.Dark</item>
+        <item name="android:buttonBarButtonStyle">@style/CardView.Dark</item>
+    </style>
+
+
+</resources>

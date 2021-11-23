@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">Speed</string>
+    <string name="scan">Scanning code</string>
+    <string name="Scanresult">Scanning Result</string>
+    <string name="scanagine">Scan Again</string>
+    <string name="finish">finish</string>
+    <string name="noresult">no Result</string>
+    <string name="scanning">Ready</string>
+    <string name="call">Make Call</string>
+    <string name="whaite">wait</string>
+    <string name="results_appear_here">results appears here</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_phone_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="strAccepterConditions">By pressing accept and continue, you agree to the terms of use and confidential politics of Speed</string>
+
+    <string name="strCondEtPol"></string>
+    <string name="tab_text_00">PICT</string>
+    <string name="tab_text_0"></string>
+    <string name="tab_text_1">Disc</string>
+    <string name="tab_text_2">Historic</string>
+    <string name="tab_text_3">Calls</string>
+    <string name="strSendSms"> MAXADS will send you an sms to check your phone number
+        Select your country and enter your phone number </string>
+    <string name="strNouveauGroupe">New Group</string>
+    <string name="strNouvelleDiscussion">New conversation</string>
+    <string name="strMaxWeb">MaxAds Web</string>
+    <string name="strParametre">Parametres</string>
+    <string name="strRecherche">Search</string>
+    <string name="strMonStatut">My Status</string>
+    <string name="strAddStatut">Add status</string>
+    <string name="strNomUtilisateur">User name</string>
+    <string name="strManque">missed</string>
+    <string name="strRecu">received</string>
+    <string name="strWelcome">Welcome to Speed</string>
+    <string name="strAccepter">Accept and Continue</string>
+
+    <string name="strEnterNumber">Please enter your phone number</string>
+    <string name="strSendMessage">MAXADS will send you an SMS to check your phone number.</string>
+    <string name="strFraisSms">SMS charges may apply.</string>
+    <string name="strEnterNum">Please type your phone number</string>
+    <string name="strNumTel">Phone Number</string>
+    <string name="strSuivant">Next</string>
+    <string name="strEnterCode">Enter the Code received by SMS to continue</string>
+    <string name="strEnterName">Enter your name here</string>
+    <string name="strProfilInfo"> Profile informations</string>
+    <string name="strEnterNameAndPhoto">Please provide your username </string>
+    <string name="strInitialisation">Initialization</string>
+    <string name="strPatienter">"Please wait... this will take a moment "</string>
+
+    <string name="strTraduction"> Auto Translate</string>
+    <string name="strTraductionMaxads">Speed automatically translates the messages you receive into foreign languages. Just choose the language in which you would like to receive your messages.</string>
+
+
+    <string name="person">PERSONNALISER</string>
+    <string name="votreque">Your QR Code</string>
+    <string name="vouspoure">You can create your QR code yourself </string>
+    <string name="enbot">safely without constraint and share it</string>
+    <string name="avosuti">to your users</string>
+    <string name="bienvenue">Welcome to</string>
+    <string name="mtnmoney">MTN MONEY</string>
+    <string name="orangemoney">ORANGE MONEY</string>
+    <string name="textvous">You can also obtain your code via another cell phone by dialing :\n #150#  on number 657 385 146  </string>
+    <string name="achatcode"> Your Code</string>
+    <string name="deduction">Has a deduction of 100 FCFA/ month</string>
+    <string name="deductionf">Has a deduction of 150 FCFA/month</string>
+    <string name="saisicode">Type Code</string>
+    <string name="enter_code">Validation code</string>
+    <string name="obtenircode">OBTAIN YOUR CODE</string>
+    <string name="numero_incorrect"> Incorrect Number</string>
+    <string name="delete_ussd_code">Delete Number </string>
+    <string name="compagnie_name">Company’s Name</string>
+    <string name="filenoexiste">file not existe</string>
+    <string name="strchangelanguage">Change Lange</string>
+
+
+    <string name="strEtapeun">STEPS  1/4</string>
+    <string name="strEtapedeux">STEPS  2/4</string>
+    <string name="strEtapetrois">STEPS  3/4</string>
+    <string name="strEtapequatre">STEPS  4/4</string>
+    <string name="strContinuer">To continue</string>
+    <string name="strIgnorer">Ignore</string>
+    <string name="strLancezVous">Lancez Vous</string>
+    <string name="strConfigurationTermine">La configuration de Speed est terminée. Vous pouvez commencer votre expérience.</string>
+    <string name="strTermine">Terminé</string>
+    <string name="strCode">Code de verification</string>
+    <string name="statut">Statut</string>
+    <string name="publicite">Publicite</string>
+    <string name="messages">Messages</string>
+    <string name="groupes">Groupes</string>
+    <string name="Setting">Setting</string>
+    <string name="profiluser">Profil</string>
+    <string name="enteryouname">Enter your Name</string>
+    <string name="your_name">Enter  your Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="profile_photo">Profil photo</string>
+    <string name="gallery">gallery</string>
+    <string name="namecanbeempty">name can t be empty</string>
+    <string name="contact">Contacts</string>
+    <string name="creer_groupe">Create Group</string>
+    <string name="click_to_add_group">Click to add New Groupe</string>
+    <string name="add_newUser">Add new User</string>
+    <string name="last_seen_today_at_9_00_am">last seen today at 9:00 am</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="document">Document</string>
+    <string name="camera">Camera</string>
+    <string name="audio">Audio</string>
+    <string name="lacation">Location</string>
+    <string name="send_image">Send Image</string>
+    <string name="try_againe">Try again</string>
+    <string name="_10_25_pm">10:25 PM</string>
+    <string name="numecanbeempty">Number Can t be empty</string>
+    <string name="waiting">please wait</string>
+    <string name="pleaseentervalid">Please enter valid Code</string>
+    <string name="higth_connection">Make live easy</string>
+    <string name="isempty">code de verification  vide</string>
+    <string name="envoie">Envoie</string>
+    <string name="reception">Reception</string>
+    <string name="codenonreconu">code non reconue</string>
+    <string name="forflash">For Flash use Volume up Key</string>
+    <string name="payto">Payer à</string>
+    <string name="create_ussd_code">Créé ton code USSD</string>
+    <string name="defaulnumber">672778594</string>
+    <string name="submit">valider</string>
+    <string name="operateur">Operateur</string>
+    <string name="operateu">Operator</string>
+    <string name="numero_telephone">Numero telephone</string>
+    <string name="numero">Numero </string>
+    <string name="enter_text">Enter TEXT</string>
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="generate">Generate</string>
+    <string name="codeussd">code ussd</string>
+    <string name="codeuss"> ussd</string>
+    <string name="click_to_generate_pdf_document">Click to generate Pdf Document</string>
+    <string name="codegenere">code bar</string>
+    <string name="erreur_connextion">Erreur de connexion</string>
+    <string name="canbeempty">Can\' t be empty</string>
+    <string name="nombreussmax">Nombre maximum de creation ateint</string>
+    <string name="enter_number">phone number</string>
+    <string name="enter_codevendeur">Sale code</string>
+    <string name="msg_subscribed">subscribed</string>
+    <string name="msg_subscribe_failed">subscribe failed</string>
+    <string name="by_wintime">by Wintime</string>
+    <string name="pby_wintime">Powered by WinTime</string>
+    <string name="entre_le_montant">Entrez le montant svp</string>
+    <string name="ok">ok</string>
+    <string name="erreur_bd">Erreur De base de donnée</string>
+    <string name="strBienvenu">Bienvenue sur</string>
+    <string name="speed">Speed</string>
+    <string name="strlse">Lisez notre politique de Confidentialité et appuyer</string>
+    <string name="strlses">-J accepte -pour Continuer</string>
+    <string name="fonctionnalite">Fonctionnalités</string>
+    <string name="qrcode">QR CODE</string>
+    <string name="unenouvel">Une nouvelle façon de payer</string>
+    <string name="transferdargent">TRANSFERT D\'ARGENT</string>
+    <string name="solution">Solution au manque</string>
+    <string name="despiece">de pièces d\’argent</string>
+    <string name="plut">Plus de problème  de remboursement.il te suffit </string>
+    <string name="scaner">simplement de scanner le QR code de votre </string>
+    <string name="payerp">bénéficiaire pour payer par un simple click. </string>
+    <string name="depayer">de Payer</string>
+    <string name="payerdermais">Payez désormais à partir du QR code. En faisant</string>
+    <string name="simplescanne">un simple scan, règlez tous tes achats et services.</string>
+    <string name="suivant">suivant</string>
+    <string name="publicites">PUBLICITE</string>
+    <string name="votre">Votre communication</string>
+    <string name="estassu">est assurée</string>
+    <string name="faitec">Faites connaître vos produits ou services d’un </string>
+    <string name="serv">click </string>
+    <string name="creervousmeme">Créer vous-même</string>
+    <string name="commencer">Démarrer</string>
+    <string name="radical">Radical</string>
+    <string name="typecompte">Type de compte</string>
+    <string name="entreprise">Entreprise</string>
+    <string name="personnel">Personnel</string>
+    <string name="numerocourt">Numero Court</string>
+
+    <string-array name="langues">
+        <item>French</item>
+        <item>English</item>
+    </string-array>
+</resources>
+
+
+
+
+

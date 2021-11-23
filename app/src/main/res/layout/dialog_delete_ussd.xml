@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grei"
+    >
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="@string/delete_ussd_code"
+
+        android:background="@android:color/black"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/bt_ok"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+
+        android:layout_below="@+id/ed_numero"
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/bt_cancel"
+        android:text="@string/cancel"
+        android:textColor="@android:color/white"
+
+        android:layout_below="@+id/ed_numero"
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/button_bg"/>
+    </LinearLayout>
+</RelativeLayout>
